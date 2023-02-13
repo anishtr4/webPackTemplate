@@ -1,2 +1,9 @@
-body{background-color:aqua;background-image:url(./images/cristiano.jpg)}h1{font-size:20px}
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/styles.scss ***!
+  \***************************************************************************************************************/
+body {
+  background-color: aqua; }
+
+h1 {
+  font-size: 20px; }
 

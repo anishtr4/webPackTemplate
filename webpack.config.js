@@ -28,11 +28,18 @@ module.exports = {
       },
     },
   },
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'dist'),
+    },
+    compress: true,
+    port: 9000,
+  },
   output: {
     // filename: '[name].js',
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: './',
+    publicPath: '/',
     assetModuleFilename: 'images/[name][ext][query]',
   },
   plugins: [
